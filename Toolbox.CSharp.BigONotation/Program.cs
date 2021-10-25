@@ -10,6 +10,9 @@ namespace Toolbox.CSharp.BigONotation
             /* Big O notation is a form to measure the complexity and time of execution
              * from applications. Big O also help us improve our algorithms using some 
              * techniques
+             * In Big O notation we keep the most significant term. Example, if we have
+             * a part of code that execute on O(1), another part on O(n) and other on
+             * O(n²), the Big O of this program is O(n²)
              */
             BigOFactory factory = new BigOFactory();
 
