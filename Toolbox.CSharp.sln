@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Fundamentals", "1 - Fun
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Design Patterns", "2 - Design Patterns", "{DDD47C38-14E1-4F89-8E35-68456881CA0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbox.CSharp.Abstraction", "Toolbox.CSharp.Abstraction\Toolbox.CSharp.Abstraction.csproj", "{EEBC5F13-6905-4C0A-9A1C-91066CABC93B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toolbox.CSharp.Abstraction", "Toolbox.CSharp.Abstraction\Toolbox.CSharp.Abstraction.csproj", "{EEBC5F13-6905-4C0A-9A1C-91066CABC93B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Data Structures and Algorithms", "3 - Data Structures and Algorithms", "{F7D5731A-6FA3-433C-975C-7924F543E433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbox.CSharp.BigONotation", "Toolbox.CSharp.BigONotation\Toolbox.CSharp.BigONotation.csproj", "{DE0D0121-7825-4C76-876C-E37E8156327E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,12 +35,25 @@ Global
 		{EEBC5F13-6905-4C0A-9A1C-91066CABC93B}.Release|x64.Build.0 = Release|Any CPU
 		{EEBC5F13-6905-4C0A-9A1C-91066CABC93B}.Release|x86.ActiveCfg = Release|Any CPU
 		{EEBC5F13-6905-4C0A-9A1C-91066CABC93B}.Release|x86.Build.0 = Release|Any CPU
+		{DE0D0121-7825-4C76-876C-E37E8156327E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0D0121-7825-4C76-876C-E37E8156327E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0D0121-7825-4C76-876C-E37E8156327E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DE0D0121-7825-4C76-876C-E37E8156327E}.Debug|x64.Build.0 = Debug|Any CPU
+		{DE0D0121-7825-4C76-876C-E37E8156327E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DE0D0121-7825-4C76-876C-E37E8156327E}.Debug|x86.Build.0 = Debug|Any CPU
+		{DE0D0121-7825-4C76-876C-E37E8156327E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0D0121-7825-4C76-876C-E37E8156327E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0D0121-7825-4C76-876C-E37E8156327E}.Release|x64.ActiveCfg = Release|Any CPU
+		{DE0D0121-7825-4C76-876C-E37E8156327E}.Release|x64.Build.0 = Release|Any CPU
+		{DE0D0121-7825-4C76-876C-E37E8156327E}.Release|x86.ActiveCfg = Release|Any CPU
+		{DE0D0121-7825-4C76-876C-E37E8156327E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EEBC5F13-6905-4C0A-9A1C-91066CABC93B} = {600AAD90-3738-48B2-99AA-6604AFB4EC58}
+		{DE0D0121-7825-4C76-876C-E37E8156327E} = {F7D5731A-6FA3-433C-975C-7924F543E433}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4C4D1D71-9838-4152-B2C1-872138BFA41E}
